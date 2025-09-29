@@ -1,12 +1,12 @@
 " curl -flo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 " install with :PlugInstall
-call plug#begin()
-plug 'tpope/vim-endwise'    " end structures automatically
-plug 'jiangmiao/auto-pairs'     " insert or delete delimiters in pair
-plug 'dracula/vim', { 'as': 'dracula' }
-call plug#end()
+" call plug#begin()
+" plug 'tpope/vim-endwise'    " end structures automatically
+" plug 'jiangmiao/auto-pairs'     " insert or delete delimiters in pair
+" plug 'dracula/vim', { 'as': 'dracula' }
+" call plug#end()
 
-colorscheme dracula
+" colorscheme dracula
 
 syntax enable           " enable syntax processing
 set belloff=all         " turn off terminal sounds
@@ -30,19 +30,10 @@ nnoremap j gj
 nnoremap k gk
 
 " move to beginning/end of line
-nnoremap b ^
-nnoremap e $
-vnoremap b ^
-vnoremap e $
-" $/^ don't do anything
-nnoremap $ <nop>
-nnoremap ^ <nop>
-vnoremap $ <nop>
-vnoremap ^ <nop>
+nnoremap B ^
+nnoremap E $
+vnoremap B ^
+vnoremap E $
 
-
-let mapleader=","       " leader is comma
-inoremap jk <esc>k      " jk is escape
-
-" save session
-nnoremap <leader>s :mksession<cr>
+" jk is escape
+inoremap jk <Esc>
