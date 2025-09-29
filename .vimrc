@@ -1,9 +1,9 @@
 " curl -flo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 " install with :PlugInstall
 " call plug#begin()
-" plug 'tpope/vim-endwise'    " end structures automatically
-" plug 'jiangmiao/auto-pairs'     " insert or delete delimiters in pair
-" plug 'dracula/vim', { 'as': 'dracula' }
+" Plug 'tpope/vim-endwise'    " end structures automatically
+" Plug 'jiangmiao/auto-pairs'     " insert or delete delimiters in pair
+" Plug 'dracula/vim', { 'as': 'dracula' }
 " call plug#end()
 
 " colorscheme dracula
