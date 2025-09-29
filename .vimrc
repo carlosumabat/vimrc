@@ -1,4 +1,4 @@
-" curl -flo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+" curl -flo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 " install with :PlugInstall
 " call plug#begin()
 " Plug 'tpope/vim-endwise'    " end structures automatically
