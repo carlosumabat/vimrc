@@ -22,9 +22,6 @@ set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 set shiftwidth=2  
 
-" turn off search highlight
-nnoremap <leader><space> :nohlsearch<cr>
-
 " move vertically by visual line
 nnoremap j gj
 nnoremap k gk
